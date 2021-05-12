@@ -18,7 +18,8 @@ Password:
                                  Dload  Upload   Total   Spent    Left  Speed
 100   633  100   633    0     0   1645      0 --:--:-- --:--:-- --:--:--  1652
 100 11.6M  100 11.6M    0     0  14.9M      0 --:--:-- --:--:-- --:--:-- 41.1M
-[cloud_user@69e2a4cfec1c ~]$ docker-compose --version-bash: /usr/local/bin/docker-compose: Permission denied
+[cloud_user@69e2a4cfec1c ~]$ docker-compose --version
+-bash: /usr/local/bin/docker-compose: Permission denied
 [cloud_user@69e2a4cfec1c ~]$ sudo chmod +x /usr/local/bin/docker-compose
 [cloud_user@69e2a4cfec1c ~]$ docker-compose --version
 docker-compose version 1.28.2, build 67630359
