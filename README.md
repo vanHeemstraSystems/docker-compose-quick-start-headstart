@@ -36,6 +36,12 @@ Change the file permissions:
 
 ```
 $ sudo chmod +x /usr/local/bin/docker-compose
+```
+Check once again:
+
+```
 $ docker-compose --version
 docker-compose version 1.28.2, build 67630359
 ```
+
+docker-compose is now successfully installed!!
